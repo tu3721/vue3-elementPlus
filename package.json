@@ -1,5 +1,5 @@
 {
-  "name": "test11",
+  "name": "managementsystem",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "echarts": "^5.1.2",
+    "element-plus": "^1.0.2-beta.65",
+    "jquery": "^3.6.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-beta.13",
+    "wangeditor": "^4.7.6"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -32,7 +38,10 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-unused-vars": 0,
+      "no-unused-expressions": 0
+    }
   },
   "browserslist": [
     "> 1%",
