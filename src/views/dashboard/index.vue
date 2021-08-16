@@ -91,6 +91,7 @@
 <script>
     import * as echarts from 'echarts';
     export default {
+        name:'Index',
         data () {
             return {
                 editShow:false,
